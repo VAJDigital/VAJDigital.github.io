@@ -1061,77 +1061,11 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
     opacity: 1;
 }
-
-
-/*--------------------------------------------------------------
-# Portfolio Details
---------------------------------------------------------------*/
-
-.portfolio-details {
-    padding-top: 40px;
-}
-
-.portfolio-details .portfolio-details-slider img {
-    width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid #47b2e4;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #47b2e4;
-}
-
-.portfolio-details .portfolio-info {
-    padding: 30px;
-    box-shadow: 0px 0 30px rgba(55, 81, 126, 0.08);
-}
-
-.portfolio-details .portfolio-info h3 {
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
-}
-
-.portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
-    font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li+li {
-    margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-    padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-    font-size: 26px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-    padding: 0;
-}
-
-
 /* INICIO TARJETAS PORTAFOLIO */
-
+.portfolio-container{
+    /* background: #28a745; */
+    align-content: center !important;
+}
 .container__card {
     max-width: 1200px;
     margin: auto;
@@ -1143,8 +1077,12 @@ section {
 }
 
 .card__father {
-    margin: 20px;
+    margin: 20px !important;
     perspective: 1000px;
+    /* background: rgb(240, 106, 106) !important; */
+    margin-left: 60px !important;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card__father:hover .card {
@@ -1154,7 +1092,6 @@ section {
 .card {
     width: 350px;
     height: 400px;
-    position: relative;
     transform-style: preserve-3d;
     transition: all 900ms;
     border: none;
@@ -1217,6 +1154,7 @@ section {
 }
 
 .body__card_back input {
+    width: 150px;
     padding: 10px 40px;
     margin-top: 30px;
     font-size: 16px;
@@ -1232,7 +1170,13 @@ section {
 .body__card_back input:hover {
     box-shadow: 1px 1px 30px 0px #449de6;
 }
-
+@media only screen and (max-width: 1100px) {
+    .card, .card__father  {
+        width: 300px;
+        height: 350px;
+        margin-left: -45px;
+    }
+}
 
 /* FIN TARJETAS PORTAFOLIO */
 
@@ -1792,6 +1736,7 @@ section {
     color: #4668a2;
     content: "/";
 }
+
 
 
 /*--------------------------------------------------------------
