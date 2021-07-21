@@ -1138,7 +1138,7 @@ section {
     margin-top: 100px;
     perspective: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     flex-wrap: wrap;
 }
 
@@ -1158,6 +1158,7 @@ section {
     transform-style: preserve-3d;
     transition: all 900ms;
     border: none;
+    border-radius: 20px;
 }
 
 .card__front {
@@ -1224,7 +1225,7 @@ section {
     color: white;
     background: #58B0F6;
     box-shadow: 1px 1px 30px -5px #58B0F6;
-    border-radius: 10px;
+    border-radius: 20px;
     transition: box-shadow 600ms;
 }
 
