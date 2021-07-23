@@ -870,9 +870,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.section-title h5{
+
+.section-title h5 {
     margin-top: 20px;
 }
+
 .services .icon-box {
     box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
     padding: 50px 30px;
@@ -1063,11 +1065,15 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
     opacity: 1;
 }
+
+
 /* INICIO TARJETAS PORTAFOLIO */
-.portfolio-container{
+
+.portfolio-container {
     /* background: #28a745; */
     align-content: center !important;
 }
+
 .container__card {
     max-width: 1200px;
     margin: auto;
@@ -1095,7 +1101,7 @@ section {
     width: 350px;
     height: 400px;
     transform-style: preserve-3d;
-    transition: all 900ms;
+    transition: all 1200ms;
     border: none;
     border-radius: 20px;
 }
@@ -1172,13 +1178,16 @@ section {
 .body__card_back input:hover {
     box-shadow: 1px 1px 30px 0px #449de6;
 }
+
 @media only screen and (max-width: 1100px) {
-    .card, .card__father  {
+    .card,
+    .card__father {
         width: 300px;
         height: 350px;
         margin-left: -45px;
     }
 }
+
 
 /* FIN TARJETAS PORTAFOLIO */
 
@@ -1738,7 +1747,6 @@ section {
     color: #4668a2;
     content: "/";
 }
-
 
 
 /*--------------------------------------------------------------
