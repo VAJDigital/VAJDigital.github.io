@@ -1336,7 +1336,7 @@ section {
 .pricing ul {
     padding: 20px 0;
     list-style: none;
-    color: #999;
+    color: rgb(124, 123, 123);
     text-align: left;
     line-height: 20px;
 }
@@ -1355,11 +1355,11 @@ section {
 }
 
 .pricing ul .na {
-    color: #ccc;
+    color: rgb(175, 175, 175);
 }
 
 .pricing ul .na i {
-    color: #ccc;
+    color: rgb(175, 175, 175);
 }
 
 .pricing ul .na span {
@@ -1386,6 +1386,9 @@ section {
 
 .pricing .featured {
     border-top-color: #47b2e4;
+}
+.pricing .featured b{
+    color: rgb(238, 9, 9);
 }
 
 .pricing .featured .buy-btn {
