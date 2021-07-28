@@ -880,6 +880,23 @@ section {
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
+    
+    
+}
+
+.services .proximamente{
+    color: white;
+    font-size: 30px;
+    background: #47b2e4;
+    transform: rotate(-30deg);
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    padding: 5px 15px;
+    border-radius: 50px;
+    opacity: .7;
+  
 }
 
 .services .icon-box .icon {
@@ -891,11 +908,19 @@ section {
     font-size: 36px;
     transition: 0.3s;
 }
+.services .icon-box .iconp{
+    color: rgb(168, 168, 168);
+    font-size: 36px;
+    transition: 0.3s;
+}
 
 .services .icon-box h4 {
     font-weight: 500;
     margin-bottom: 15px;
     font-size: 24px;
+}
+.prox{
+    color: rgb(168, 168, 168) !important;
 }
 
 .services .icon-box h4 a {
@@ -909,11 +934,12 @@ section {
     margin-bottom: 0;
 }
 
-.services .icon-box:hover {
+.services .icon-box-animated:hover {
     transform: translateY(-10px);
 }
 
-.services .icon-box:hover h4 a {
+
+.services .icon-box-animated:hover h4 a {
     color: #47b2e4;
 }
 
