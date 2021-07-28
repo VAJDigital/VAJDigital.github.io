@@ -583,37 +583,9 @@ section {
 .section-title p {
     margin-bottom: 0;
 }
-
-
 /*--------------------------------------------------------------
 # Cliens
 --------------------------------------------------------------*/
-
-.cliens {
-    padding: 12px 0;
-    text-align: center;
-}
-
-.cliens img {
-    max-width: 45%;
-    transition: all 0.4s ease-in-out;
-    display: inline-block;
-    padding: 15px 0;
-    filter: grayscale(100);
-}
-
-.cliens img:hover {
-    filter: none;
-    transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-    .cliens img {
-        max-width: 40%;
-    }
-}
-
-
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -854,16 +826,16 @@ section {
     font-style: normal;
 }
 .skills .progress .skill .valmac {
-    color: rgb(201, 77, 6);
+    color: #E47971;
 }
 .skills .progress .skill .valmin {
     color: rgb(235, 214, 23);
 }
 .skills .progress .skill .valmed {
-    color: rgb(201, 133, 6);
+    color: #EE9949;
 }
 .skills .progress .skill .valmax {
-    color: rgb(201, 6, 6);
+    color: #C65547;
 }
 
 
@@ -880,16 +852,16 @@ section {
     
 }
 .pg1{
-    background: rgb(201, 77, 6);
+    background: #E47971;
 }
 .pg2{
-    background: rgb(201, 133, 6);
+    background: #EE9949;
 }
 .pg3{
     background: rgb(235, 214, 23);
 }
 .pg4{
-    background: rgb(201, 6, 6) ;
+    background: #C65547 ;
 }
 
 
