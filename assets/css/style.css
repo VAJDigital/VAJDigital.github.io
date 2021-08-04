@@ -1663,7 +1663,6 @@ section {
 
 footer {
     width: 100%;
-    padding: 50px 0px;
     background-image: url(../img/background-footer.svg);
     background-size: cover;
 }
@@ -1673,6 +1672,8 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
     margin: auto;
     margin-top: 100px;
 }
@@ -1680,6 +1681,8 @@ footer {
 .box__footer {
     display: flex;
     flex-direction: column;
+    margin: 20px;
+    padding: 20px;
 }
 
 .box__footer .logo img {
@@ -1688,7 +1691,85 @@ footer {
 
 .box__footer .terms {
     max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2 {
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a {
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.box__footer a:hover {
+    opacity: .8;
+}
+
+.box__footer .social-links {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.box__footer a .bx {
+    font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+.box__copyright {
+    margin: auto;
+    text-align: center;
+    background: #37517E;
+    height: 80px;
+}
+
+.box__copyright p {
+    color: #ffffff;
+}
+
+.box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
 }
 
 
 /* minuto 21 */
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #209dd8;
+    color: #fff;
+    text-decoration: none;
+}
