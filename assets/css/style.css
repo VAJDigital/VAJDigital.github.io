@@ -1557,10 +1557,11 @@ section {
     background: #209dd8;
 }
 
-.contact .ctn-wsp {
+.ctn-wsp {
     position: relative;
     margin-top: 50px;
 }
+
 
 .contact .btn-wsp {
     background: #01E675;
@@ -1602,56 +1603,6 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Breadcrumbs
---------------------------------------------------------------*/
-
-.breadcrumbs {
-    padding: 15px 0;
-    background: #f3f5fa;
-    min-height: 40px;
-    margin-top: 72px;
-}
-
-@media (max-width: 992px) {
-    .breadcrumbs {
-        margin-top: 68px;
-    }
-}
-
-.breadcrumbs h2 {
-    font-size: 28px;
-    font-weight: 600;
-    color: #37517e;
-}
-
-.breadcrumbs ol {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0 0 10px 0;
-    margin: 0;
-    font-size: 14px;
-}
-
-.breadcrumbs ol li+li {
-    padding-left: 10px;
-}
-
-.breadcrumbs ol li+li::before {
-    display: inline-block;
-    padding-right: 10px;
-    color: #4668a2;
-    content: "/";
-}
-
-@media (max-width: 768px) {
-    #footer .footer-bottom {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-}
-
 
 /* ***************** */
 
@@ -1663,7 +1614,8 @@ section {
 
 footer {
     width: 100%;
-    background-image: url(../img/background-footer.svg) background-size: cover;
+    background: #F3F5FA;
+    background-size: cover;
 }
 
 .container__footer {
@@ -1674,7 +1626,6 @@ footer {
     margin: 20px;
     padding: 20px;
     margin: auto;
-    margin-top: 100px;
 }
 
 .box__footer {
