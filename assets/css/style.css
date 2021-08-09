@@ -1663,8 +1663,7 @@ section {
 
 footer {
     width: 100%;
-    background-image: url(../img/background-footer.svg);
-    background-size: cover;
+    background-image: url(../img/background-footer.svg) background-size: cover;
 }
 
 .container__footer {
