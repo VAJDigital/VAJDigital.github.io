@@ -1317,6 +1317,11 @@ section {
     text-decoration: line-through;
 }
 
+.antes {
+    text-decoration: line-through;
+    color: #333;
+}
+
 .pricing .buy-btn {
     display: inline-block;
     padding: 12px 35px;
@@ -1562,7 +1567,6 @@ section {
     margin-top: 50px;
 }
 
-
 .contact .btn-wsp {
     background: #01E675;
     border: 0;
@@ -1601,7 +1605,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
 
 
 /* ***************** */
