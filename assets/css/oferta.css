@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container__oferta{
+    background: #37517e;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container__title, .container__image{
+    margin-top: 100px;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container__image .txt-desc{
+    color: #fff;
+}
+.txt-email{
+    margin:auto;
+}
+.txt-email .form-control{
+    width: 250px;
+}
