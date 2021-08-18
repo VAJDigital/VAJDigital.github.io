@@ -1,30 +1,80 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container__oferta{
-    background: #37517e;
-    height: 500px;
-    display: flex;
-    flex-wrap: wrap;
+.container__oferta {
+  background: #d16e34;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
-.container__title, .container__image{
-    margin-top: 100px;
+.container__oferta p {
+  font-size: 40px;
+  width: 100%;
+  margin: auto;
 }
-
-.title{
+.container-all {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  padding: 25px;
+}
+.container-all h2 {
+  width: 100%;
+  font-size: 60px;
+  padding: 20px;
+}
+.container-all p{
+    font-size: 25px;
+}
+.container-all .container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-card .card {
+  background: rgb(207, 218, 238);
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.55);
+}
+.container-card .card .descuento{
+    width: 85px;
+    height: 85px;
+    background: #d16e34;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
     color: #fff;
-    text-align: center;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    top: -35px;
+    left: -35px;
+    font-size: 15px;
 }
-.container__image .txt-desc{
-    color: #fff;
+@media screen and (max-width: 650px) {
+  .container__oferta {
+    height: 60px;
+  }
+  .container__oferta p {
+    font-size: 30px;
+  }
+  .container-all {
+    top: -10px;
+  }
+  .container-all h2 {
+    font-size: 40px;
+  }
 }
-.txt-email{
-    margin:auto;
-}
-.txt-email .form-control{
-    width: 250px;
+@media screen and (max-width: 470px) {
+  .container__oferta {
+    height: 50px;
+  }
+  .container__oferta p {
+    font-size: 20px;
+  }
 }
