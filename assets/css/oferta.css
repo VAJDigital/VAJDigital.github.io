@@ -92,7 +92,6 @@
   background: rgb(243, 225, 225);
 }
 
-
 @media screen and (max-width: 650px) {
   .container__oferta {
     height: 60px;
@@ -110,33 +109,50 @@
     width: 300px;
   }
 }
-.section-bonus{
-  background: rgba(60, 184, 85, 0.1);
-  display: grid;
-  place-content: center;
+/* BONUS */
+
+
+.card-bonus{
+  width: 300px;
+  height: 300px;
+  background: rgb(175, 207, 172);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 150px;
+  display: flex;
 }
-.container-bonus{
-  background: rgba(60, 114, 184, 0.727);
+.card-bonus > *{
+  margin: auto;
 }
-.ctn-bonus{
-  background: rgba(184, 60, 60, 0.727);
+.txt-bonus{
+  font-size: 30px;
+  
 }
-.row-bonus{
-  background: rgba(134, 60, 184, 0.727);
+.section-bonus input[type=button]{
+  background: #d16e34;
+  height: 100px;
+  width: 500px;
+  padding: 20px;
+  border-radius: 50px;
+  border: none;
+  font-size: 30px;
+  color: #fff;
 }
-.container-bonus .bonus{
-    width: 220px;
-    height: 220px;
-    background: gray;
-    border-radius: 120px;
-    padding: 20px;
-    margin: 20px;
+.section-bonus input[type=button]:hover{
+  background: #c25d23;
 }
-@media screen and (max-width: 770px) {
-  .container-bonus .bonus{
-    margin: 10px;
-  }
+
+/* Clientes */
+.card-cliente{
+  width: 300px;
+  height: 300px;
+  background: rgb(164, 207, 246);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
 }
+
 
 @media screen and (max-width: 470px) {
   .container__oferta {
@@ -148,5 +164,4 @@
   .container-card .card .title {
     font-size: 35px;
   }
-
 }
