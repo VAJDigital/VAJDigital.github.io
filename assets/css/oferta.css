@@ -91,11 +91,7 @@
   border-radius: 10px;
   background: rgb(243, 225, 225);
 }
-@media screen and (max-width: 1200px) {
-  .container-reloj .card-text {
-    width: 250px;
-  }
-}
+
 
 @media screen and (max-width: 650px) {
   .container__oferta {
@@ -114,6 +110,34 @@
     width: 300px;
   }
 }
+.section-bonus{
+  background: rgba(60, 184, 85, 0.1);
+  display: grid;
+  place-content: center;
+}
+.container-bonus{
+  background: rgba(60, 114, 184, 0.727);
+}
+.ctn-bonus{
+  background: rgba(184, 60, 60, 0.727);
+}
+.row-bonus{
+  background: rgba(134, 60, 184, 0.727);
+}
+.container-bonus .bonus{
+    width: 220px;
+    height: 220px;
+    background: gray;
+    border-radius: 120px;
+    padding: 20px;
+    margin: 20px;
+}
+@media screen and (max-width: 770px) {
+  .container-bonus .bonus{
+    margin: 10px;
+  }
+}
+
 @media screen and (max-width: 470px) {
   .container__oferta {
     height: 50px;
